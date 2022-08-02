@@ -5,7 +5,7 @@
 	<artifactId>dynamodb-geo</artifactId>
 	<packaging>jar</packaging>
 	<name>Amazon DynamoDB Geo on the AWS SDK 2.x for Java</name>
-	<version>1.0.0</version>
+	<version>1.0.2</version>
 	<description>Port of Geo Library (to AWS SDK 2.x) for Amazon DynamoDB provides methods to create, retrieve,
 	and query for geo-spatial data records in Amazon DynamoDB tables.
 	</description>
@@ -63,11 +63,11 @@
 
 	</build>
 
-	<distributionManagement>
-		<repository>
-			<id>github</id>
-			<name>GitHub Packages</name>
-			<url>https://maven.pkg.github.com/chorniyn/dynamodb-geo-aws-sdk-2</url>
-		</repository>
-	</distributionManagement>
+<!--	<distributionManagement>-->
+<!--		<repository>-->
+<!--			<id>github</id>-->
+<!--			<name>GitHub Packages</name>-->
+<!--			<url>https://maven.pkg.github.com/chorniyn/dynamodb-geo-aws-sdk-2</url>-->
+<!--		</repository>-->
+<!--	</distributionManagement>-->
 </project>
